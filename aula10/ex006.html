@@ -20,5 +20,29 @@
     <div id="area">
         Interaja...
     </div>
+    <script>
+        /*onclick="clicar()"
+        onmouseenter="entrar()"
+        onmouseout="sair()"
+        //addEventLister substitui eventos no html*/
+
+        let area =  window.document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', SVGLinearGradientElement)
+        function clicar() {
+            area.innerText= 'Clicou'
+            area.style.background= 'red'
+        }
+        function entrar(){
+            area.innerText= 'entrou'
+            area.style.background= 'green'
+        }
+        function sair(){
+            area.innerText='saiu'
+            area.style.background= 'green'
+
+        }
+    </script>
 </body>
 </html>
