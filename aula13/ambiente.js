@@ -1,13 +1,5 @@
 let c = 1
-do {
-    console.log ('Passp !')
+while (c<=5){
+    console.log(c)
+    c++
 }
-
-
-
-
-/*let cont = 1
-while( cont <=8){
-    console.log (`passo ${cont}`)
-    cont++
-}*?
